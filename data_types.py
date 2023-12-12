@@ -9,25 +9,24 @@
 #datatype
 #Integer
 
-# variable_int = 125
-# print(variable_int)
-#
-# variable_float = 125.25
-# print(variable_float)
+variable_int = 125
+print(variable_int)
+variable_float = 125.25
+print(variable_float)
 
 #type()
-# print(type(variable_float)) # datatype of your variable
+print(type(variable_float)) # datatype of your variable
 #
-# var_str = 'string datatype'
-# print(var_str)
-#
-# var_bool = True
-# print(var_bool)
+var_str = 'string datatype'
+print(var_str)
+
+var_bool = True
+print(var_bool)
 
 #input()
 #
 
-'''
+
 var_random = input("Enter a value")
 print("The value of my variable is:"+var_random)
 print(var_random)
@@ -40,7 +39,7 @@ var_str = input("Enter a value")
 var_str = int(var_str)
 print(var_str)
 
-'''
+
 
 
 
@@ -66,37 +65,37 @@ print(var_str)
 
 # intNum = 5 # integer
 # floatNum = 5.0#float
-#
-# ans = intNum + floatNum
-# print(ans)
-# print(type(ans))
+
+ans = intNum + floatNum
+print(ans)
+print(type(ans))
 
 #Explicit type conversion
-#
-# num1 = int(input("Enter the value1"))
-# num2 = float(input("Enter the value2"))
+
+num1 = int(input("Enter the value1"))
+num2 = float(input("Enter the value2"))
 
 # Explicit type conversion int(), float(), str(), bool()
 
 # str ---> int
 
-# print(int(num1) + int(num2))
+print(int(num1) + int(num2))
 
 # 0 ---> False 1 is True
 
-# print(bool(" "))
-# print(bool(263571))
-# print(bool(''))
-# print(bool(0))
-# print(bool(0.0))
+print(bool(" "))
+print(bool(263571))
+print(bool(''))
+print(bool(0))
+print(bool(0.0))
 
 # + ---> addition
 
-# print(12 % 5)  # returns the remainder value
+print(12 % 5)  # returns the remainder value
 #
-# print(189 // 5)  # floor division rounding off
+print(189 // 5)  # floor division rounding off
 #
-# print(3 ** 2) # exponentiation operator
+print(3 ** 2) # exponentiation operator
 
 #problems
 #problems to be solved
